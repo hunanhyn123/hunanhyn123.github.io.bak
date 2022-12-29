@@ -1,5 +1,5 @@
 
-# Site settings
+# 介绍
 title: 课题组
 description: "关于课题组的故事"
 url: "https://projectpages.github.io"
@@ -7,20 +7,14 @@ url: "https://projectpages.github.io"
 
 
 
-# Secondary Parameters
+# 成员
 baseurl: "/课题组"
 header-img: img/home1.jpg
 headercolor: "#FFFFFF"
 logo: /project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
 
-# Tertiary Parameters
-github_username:  课题组
-project_repository: 课题组
-disqus_shortname: 课题组
-g-analytics: UA-75881392-1
-altmetric: true
 
-# Build settings
+# 研究
 gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
@@ -28,21 +22,10 @@ permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-# Jekyll Settings
-
-defaults:
-  -
-    scope:
-      path: "projects"
-      type: "pages"
-    values:
-      layout: "project"
-      header-img: "img/home1.jpg"
-
-# Prose Settings
-prose:
-  ignore: ['feed.xml', '/stl', '/ply', '/js', '/plugin', '/lib', '/projectors', '_layouts', '/_includes', 'Gruntfile.js', 'package.json', 'proselinks.jsonp', 'ppanchor.matin', '.gitignore', '/search', '/css', '/img', 'favicon.png','_data/*.json','LICENSES.md','README.md','colorscheme.scss','members.html','mentions.html','index.html']
-  siteurl: 'http://projectpages.github.io/project-pages/'
+# 项目1
+微注射泵的研制
+成员：胡子豪、文毅、陈国兰
+分工：
   ispp: true
   media: 'img'
   metadata:
