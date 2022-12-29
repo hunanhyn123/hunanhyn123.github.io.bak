@@ -1,4 +1,4 @@
-# hunanhyn123.github.io
+
 # Site settings
 title: 课题组
 description: "关于课题组的故事"
